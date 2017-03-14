@@ -22,7 +22,7 @@ The commands for this are:
         
         -The number argument is optional, but will tell you approx. probability & cost in orbs.
     
-            ex. ~char hector 10
+            ex. ~bursula hector 10
 
 ~focus
 

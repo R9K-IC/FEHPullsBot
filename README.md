@@ -12,14 +12,18 @@ The commands for this are:
     
         -Displays help.
         
- ~all
+ ~[focus] all
     
-        -Displays overall probabilities of all colours & rarities.
+        -Displays overall probabilities of all colours & rarities for a particular focus.
         
- ~char < character name > [number]
+ ~[focus] < character name > [number]
     
-        -Displays probabilities of the character given the color.
+        -Displays probabilities of the character given the focus and color.
         
         -The number argument is optional, but will tell you approx. probability & cost in orbs.
     
             ex. ~char hector 10
+
+~focus
+
+        -Displays available focuses and their aliases.

@@ -24,7 +24,9 @@
 			"merric": 15,
 			"cecilia": 16,
 			"fae": 17,
-			"hector": 18
+			"hector": 18,
+			"scamilla": 19,
+			"schrom": 20
 		},
 		"red":{
 			"ryoma": 1,
@@ -59,7 +61,8 @@
 			"tikia": 30,
 			"lucina": 31,
 			"eldigan": 32,
-			"sanaki": 33
+			"sanaki": 33,
+			"karel": 34
 		},
 		"blue":{
 			"effie": 1,
@@ -86,7 +89,11 @@
 			"azura": 22,
 			"aqua": 22,
 			"olwen": 23,
-			"reinhardt": 24
+			"reinhardt": 24,
+			"ninian": 25,
+			"slucina": 26,
+			"sxander": 27,
+			"smarx": 27
 		},
 		"colorless":{
 			"gordin": 1,
@@ -110,7 +117,11 @@
 			"wrys": 19,
 			"takumi": 20,
 			"klein": 21,
-			"lachesis": 22
+			"lachesis": 22,
+			"jaffar": 23,
+			"rebecca": 24,
+			"lucius": 25,
+			"priscilla": 26
 		}
 	},
 	"rarities": {
@@ -223,6 +234,18 @@
 				"_4": 0,
 				"_5": 1,
 				"name": "Hector"
+			},
+			{
+				"_3": 0,
+				"_4": 0,
+				"_5": 0,
+				"name": "Spring Camllia"
+			},
+			{
+				"_3": 0,
+				"_4": 0,
+				"_5": 0,
+				"name": "Spring Chrom"
 			}
 		],
 		"red": [
@@ -416,14 +439,20 @@
 			{
 				"_3": 0,
 				"_4": 0,
-				"_5": 0,
+				"_5": 1,
 				"name": "Eldigan"
 			},
 			{
 				"_3": 0,
 				"_4": 0,
-				"_5": 0,
+				"_5": 1,
 				"name": "Sanaki"
+			},
+			{
+				"_3": 0,
+				"_4": 0,
+				"_5": 1,
+				"name": "Karel"
 			}
 		],
 		"blue": [
@@ -563,14 +592,32 @@
 			{
 				"_3": 0,
 				"_4": 0,
-				"_5": 0,
+				"_5": 1,
 				"name": "Olwen"
+			},
+			{
+				"_3": 0,
+				"_4": 1,
+				"_5": 1,
+				"name": "Reinhardt"
+			},
+			{
+				"_3": 0,
+				"_4": 0,
+				"_5": 1,
+				"name": "Ninian"
 			},
 			{
 				"_3": 0,
 				"_4": 0,
 				"_5": 0,
-				"name": "Reinhardt"
+				"name": "Spring Lucina"
+			},
+			{
+				"_3": 0,
+				"_4": 0,
+				"_5": 0,
+				"name": "Spring Xander"
 			}
 		],
 		"colorless": [
@@ -697,20 +744,107 @@
 			},
 			{
 				"_3": 0,
-				"_4": 0,
+				"_4": 1,
 				"_5": 0,
 				"name": "Klein"
 			},
 			{
 				"_3": 0,
-				"_4": 0,
-				"_5": 0,
+				"_4": 1,
+				"_5": 1,
 				"name": "Lachesis"
+			},
+			{
+				"_3": 0,
+				"_4": 0,
+				"_5": 1,
+				"name": "Jaffar"
+			},
+			{
+				"_3": 0,
+				"_4": 1,
+				"_5": 1,
+				"name": "Rebecca"
+			},
+			{
+				"_3": 0,
+				"_4": 1,
+				"_5": 1,
+				"name": "Lucius"
+			},
+			{
+				"_3": 0,
+				"_4": 1,
+				"_5": 1,
+				"name": "Priscilla"
 			}
 		]
 	},
 	"focus": [
 		{},
+		{
+			"name": "Spring Festival",
+			"alias": [
+				"sfestival",
+				"festival",
+				"spring"
+			],
+			"hash":{
+				"scamilla": "0",
+				"schrom": "1",
+				"slucina": "2",
+				"sxander": "3",
+				"smarx": "3"
+			},
+			"members": [
+				"scamilla",
+				"schrom",
+				"slucina",
+				"sxander"
+			]
+		},
+		{
+			"name": "Battling Michalis",
+			"alias": [
+				"bmichalis",
+				"michalis"
+			],
+			"hash":{
+				"minerva": "0",
+				"gordin": "1",
+				"eliwood": "2",
+				"selena": "3"
+			},
+			"members": [
+				"minerva",
+				"gordin",
+				"eliwood",
+				"selena"
+			]
+		},
+		{
+			"name": "Blazing Shadows",
+			"alias": [
+				"blaze",
+				"blazing"
+			],
+			"hash":{
+				"ninian": "0",
+				"karel": "1",
+				"jaffar": "2",
+				"rebecca": "3",
+				"lucius": "4",
+				"priscilla": "5"
+			},
+			"members": [
+				"ninian",
+				"karel",
+				"jaffar",
+				"rebecca",
+				"lucius",
+				"priscilla"
+			]
+		},
 		{
 			"name": "Battling Ursula",
 			"alias": [
@@ -771,7 +905,7 @@
 				"siblings"
 			],
 			"hash":{
-				"eldiga": "0",
+				"eldigan": "0",
 				"sanaki": "1",
 				"olwen": "2",
 				"reinhardt": "3",
